@@ -1,0 +1,46 @@
+ul {
+    background-color: rgb(243, 239, 239);
+    padding: 15px;
+    border-radius: 16px;
+    height: 220px;
+    overflow-y: scroll;
+}
+
+li {
+    margin-bottom: 25px;
+    padding-left: 30px;
+
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+button {
+    margin:20px 0;
+    display: block;
+    border: none;
+    padding: 5px 17px;
+    color: wheat;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: red;
+    
+
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: 0 0 2px rgb(243, 239, 239);
+    border-radius: 1px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(243, 239, 239);
+  }
